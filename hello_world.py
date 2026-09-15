@@ -1,47 +1,36 @@
 print("Hello World! Welcome to python programming")
 
-# single line comment Data types in python, and data structures
+#data types, data structure, statement - if else elseif, Loops - while, for  function class inheritance
+
+# single line comment
+# integer int postive or negative -10,0,--10
+# decimal/float float 2.3
+# string str "Hello world", 'hello world'
+# boolean bool True or False
+
+# crtl + / for single line comment
 
 '''
-integer whole number 10 - int
-decimals/float 2.3 - float
-Boolean True or False - bool
-strings text "Hello World", 'Hello World' - str
-
-Data structures in python
-list - [1,3,5.0, "Hello World",True]
-tuple - (1,23,4.5,"Hello World",False)
-set - {1,2,3,4,5,True,"Milasha"}
-dictionary - {"name":"Chiko", "age": 23, "is_student": True}  - {key: value} - dict
-
+data structure
+list [1,"hi",True,2.3]
+tuple ()
+set {}
+dictionary {key:value pair}
 '''
-# _maria, chiko_, chiko123, a,b,milasha123
-a = 10
-b = 20.5
-c= "Raghad"
-f= "Alkurdi"
-d = True
-liu = [1,2,3,4,5,6]
-print(a)
-print(type(a))
-print(b)
-print(type(b))
-print(c)
-print(type(c))
-print(d)
-print(type(d))
-print(liu)
+variable = 10
+_variable = 12.0
+variable_1 = True
+liya = "Liya"
+stephanie = [1,2.3,False,"Asakhe"]
+liu= (1,2.3,True,"Chiko")
+k = {1,2.3,False,"Liu"}
+abigiya = {"name": "Chiko Liu Abdulsamad","age":7000, "is_mentor":True}
+
+print(type(variable))
+print(type(_variable))
+print(type(variable_1))
+print(type(liya))
+print(type(stephanie))
 print(type(liu))
-print(a+b)
-print(type(a+b))
-print(float(a))
-print(int(b))
-print(a/2)
-print(a/2.5)
-# operation: addition , subtraction, multiplication, division, modulus, exponentiation
-print(5%2)
-print(5**2)
-print(5*5)
-print(5**2==5*5)
-
-print(c+' '+f)
+print(type(k))
+print(type(abigiya))
